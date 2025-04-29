@@ -43,7 +43,7 @@ We explore a full **SSRF-to-RCE** exploit chain by injecting malicious job paylo
 -> Here's the number of bypasses available for the same: 
 https://github.com/b4rdia/HackTricks/blob/master/pentesting-web/ssrf-server-side-request-forgery/url-format-bypass.md
 
--> This is the way to interact with the Server Database and inject the payload.
+-> This is the way to interact with the Server Database and inject the payload through the input field.
 
 ---
 
