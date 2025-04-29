@@ -36,7 +36,7 @@ We explore a full **SSRF-to-RCE** exploit chain by injecting malicious job paylo
 ---
 ## SSRF
 
--> Connect to the Redis DB via url. HINT: http://127.0.0.1:<Redis_port>
+-> Connect to the Redis DB via url. HINT: "http://127.0.0.1:<Redis_port>"
 
 -> To make it work, use different protocol other than "http", and would need to bypass "127.0.0.1".
 
