@@ -33,7 +33,7 @@ We explore a full **SSRF-to-RCE** exploit chain by injecting malicious job paylo
   F --> G[Flag written to web directory]
 
 ```
-
+---
 ## SSRF
 
 -> Connect to the Redis DB via url. HINT: http://127.0.0.1:<Redis_port>
