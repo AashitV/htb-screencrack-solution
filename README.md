@@ -74,6 +74,10 @@ You may need to convert it back to the format actually being executed (Serialize
 **Step 5:** 
 Ultimately, encode the payload with the Redis push command to enter the job inside the default queue based on the **protocol** used.
 
+
+![submitted and pwned ScreenCrack](https://github.com/user-attachments/assets/3df0deb3-d257-429b-afc4-901d7c73f72d)
+
+
 ------------------------------------------------------------------------------------------------------------------------------------
 
 NOTE: 
@@ -83,6 +87,8 @@ NOTE:
 ~ A specific protocol will show error when entered, but it runs and gets executed in the backend and get the job done.
 
 ~ Local docker instance will help to see how the queue and job actually works. (Here, we can execute the jobs faster and won't have to wait for 10 min, as we have access to the shell directly to run the command: 'php artisan queue:work --once').
+
+~ You will get flag based on the command you used inside the payload. (Hint based on our payload: By default, the files URL output files are inside 'src' folder = <HTB ip : port>/src/abcdef.txt)
 
 ---
 
