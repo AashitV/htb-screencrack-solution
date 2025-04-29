@@ -90,3 +90,8 @@ NOTE:
 This project is a proof of concept and is **just a hint** and actual RCE payload with push Redis command is kept **hidden** due of HTB policy of not sharing flag/writeup for **Active challenges**.
 
 
+~by
+
+Cristiansen, Matt
+Nguyen, Dinh Cao Dat
+Virani, Aashit
