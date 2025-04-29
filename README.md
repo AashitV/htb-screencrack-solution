@@ -16,6 +16,8 @@
 
 This repository contains Team 7's walkthrough and proof-of-concept exploit for the Hack The Box machine **ScreenCrack**, which simulates a vulnerable Laravel-based web application.
 
+**ScreenCrack** is a web challenge with Medium difficulty, which functions by taking url as an input and providing the page's Screenshot and Source code.
+
 We explore a full **SSRF-to-RCE** exploit chain by injecting malicious job payloads into Redis via gopher protocol, triggering RCE through Laravel’s job queue mechanism.
 
  **This project is for educational purposes only.**
